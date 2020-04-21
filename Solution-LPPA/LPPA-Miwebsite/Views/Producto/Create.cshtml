@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Agregar nuevo producto";
+}
+
+<h2>Nuevo Producto</h2>
+<hr />
+<form method="post" action="/Producto/Create">
+    <label for="codigo">Codigo</label>
+    <hr />
+    <input type="number" name="codigo" required="required" />
+    <hr />
+    <hr />
+    <label for="nombre">Nombre</label>
+    <hr />
+    <input type="text" name="nombre" required="required" />
+    <hr />
+    <hr />
+
+    <label for="descripcion">Descripcion</label>
+    <hr />
+    <input type="text" name="descripcion" required="required" />
+    <hr />
+    <hr />
+    <input type="submit" value="grabar" />
+</form>
